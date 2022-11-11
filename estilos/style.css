@@ -1,0 +1,736 @@
+/* pc pantalla*/
+
+*{
+    font-family: cursive;  
+}
+
+#parraf{
+    margin: 0 0 0 15px;
+}
+
+p{
+    font-size: 22px;
+}
+
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+body::-webkit-scrollbar-track {
+    background: rgb(206, 201, 192);/* color del scrool */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(19, 19, 24);    /* color del scrool dentro */
+    border-radius: 20px;       /* borde circular scroool dentro */
+    border: 3px solid rgb(206, 201, 192);  /* color y tamano del borde scroold dentro */
+}
+
+/*header*/
+
+.contheader{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.902);
+    position: sticky;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    color: #F2F4F3;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 60px; 
+    width: 60px; 
+    margin:2px 0; 
+    margin-left: 2px;
+}
+
+.logo h2{
+    padding: 0 0 0 30px;  
+}
+
+nav{
+    width: 1570px;
+    display: flex;
+    justify-content: end;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li{
+    margin: 0 10px 0 10px;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration:underline;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 21px 10px;
+    background-color: white;
+    text-shadow: 8px 7px 5px rgb(118, 118, 118);
+}
+
+/*Main*/
+
+main{
+    margin: 0 15px 15px 10px;
+    background-color: white;
+    border: solid 2px rgb(128, 128, 128);
+    width: 1490px;
+}
+
+.main{
+    display: flex;
+}
+
+.cont{
+    display: flex;
+    height:500px;
+}
+
+.conteinerT{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 570px;
+    height: 500px;
+}
+
+.title h2{
+    padding-left: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    Margin-bottom: 0px;
+}
+
+.text{
+    margin: 0 5px 0 5px;
+}
+
+.text p{
+    font-size:21px;
+}
+
+.cont iframe{
+    width: 890px;
+    margin-left: 30px;
+    height: 500px;
+}
+
+.cont2{
+    display: flex;
+}
+
+.cont2 img{
+    height: 500px;
+    width: 1900px;
+    margin-right: 20px;
+}
+
+.galeria img{
+    height: 443px;
+    margin-right: 20px;
+    width: 889.078px;
+}
+
+.cont3{
+    margin: 0 10px;
+}
+
+#dia img{
+    width: 1479px;
+}
+
+/*aside*/
+
+aside{
+    width: 400px;  
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.aside{
+    border: solid 2px rgb(94, 94, 94);
+    background-color: white;
+    padding: 5px 5px 0 5px;
+    margin-bottom: 10px;
+}
+
+.aside h2{
+    text-align: center;
+}
+
+.aside p{
+    font-size: 18.5px;
+}
+
+aside img{
+    width: 370px;
+    height: 370px;
+    border-radius: 230px;
+    object-fit: cover;
+}
+
+.aside2{
+    border: solid 2px rgb(94, 94, 94);
+    background-color: white;
+    padding: 5px 5px 0 5px;
+    height: 220px;
+}
+
+.aside2 h2{
+    text-align: center;
+    text-decoration: overline;
+}
+
+.aside2 p{
+    font-size: 18.5px;
+}
+
+.linea2{
+    display: flex;
+}
+
+.aside3{
+    border: solid 2px rgb(94, 94, 94);
+    background-color: white;
+    padding: 5px 5px 0 5px;
+    height: 950px;
+    margin-bottom: 10px;
+}
+
+.aside3 img{
+    width: 370px;
+    height: 370px;
+}
+
+.aside3 h2{
+    font-size: 20px;
+}
+
+.aside4{
+    border: solid 2px rgb(94, 94, 94);
+    background-color: white;
+    padding: 5px 5px 0 5px;
+    height: 1160px;
+    margin-bottom: 10px;
+}
+
+.aside4 img{
+    width: 370px;
+    height: 370px;
+}
+
+.aside4 h2{
+    font-size: 20px;
+}
+
+.aside5{
+    border: solid 2px rgb(94, 94, 94);
+    background-color: white;
+    padding: 5px 5px 0 5px;
+    height: 1430px;
+    margin-bottom: 10px;
+}
+
+.aside5 img{
+    width: 370px;
+    height: 370px;
+}
+
+.aside5 h2{
+    text-align: center;
+}
+
+.aside6{
+    border: solid 2px rgb(94, 94, 94);
+    background-color: white;
+    padding: 5px 5px 0 5px;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+.aside6 h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.aside6 video{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+}
+
+.aside7{
+    border: solid 2px rgb(94, 94, 94);
+    background-color: white;
+    padding: 5px 5px 0 5px;
+    height: 196px;
+    margin-bottom: 10px;
+}
+
+.aside7 h2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+}
+
+.aside7 audio{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#logo-w{
+    margin-right: 18px;
+}
+
+.linea1{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 10px;
+}
+
+.icon_logo img{
+   width: 50px;
+   height: 50px;
+}
+
+.icon_logo{
+    display: flex;
+}
+
+.aside2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5px;
+}
+
+/* General */
+
+.listado ul{
+    font-size: 18.5px;
+    margin-left: -20px;
+}
+
+li a{
+    color: blue;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    height: 260px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-shadow: 8px 7px 5px rgb(118, 118, 118);
+    padding: 30px 0 30px 0;
+}
+
+/* netbook pantalla casa*/
+
+@media screen and (min-width: 1221px) and (max-width: 1267px){
+    .aside p{
+        font-size: 16px;
+    }
+
+    .aside5{
+        height: 1010px;
+    }
+    
+    .aside4{
+        height: 900px;
+    }
+
+    .aside3{
+        height: 760px;
+    }
+
+    .listado ul{
+        font-size: 16.5px;
+    }
+    .logo img{
+        height: 60px; 
+        width: 70px; 
+        margin-top: 20px; 
+        margin-left: 2px;
+    }
+    .aside img{
+        width: 315px;
+        height: 315px;
+    }
+
+    .aside3 img{
+        width: 315px;
+        height: 315px;
+    }
+    
+    .aside4 img{
+        width: 315px;
+        height: 315px;
+    }
+
+    .aside5 img{
+        width: 315px;
+        height: 315px;
+    }
+
+    .aside6 video{
+        width: 315px;
+        height: 305px;
+    }
+
+    .aside7 audio{
+       margin: 10px 10px;
+    }
+
+
+    .icon_logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    main{
+        width: 850px;
+    }
+    
+    aside{
+        width: 330px;
+    }
+
+    .linea1{
+        gap: 63px;
+    }
+
+    .conteinerT{
+        width: 400px;
+    }
+
+    #dia img{
+        width: 830px;
+    }
+
+    .cont iframe{
+        width: 585px;
+        margin-left: 5px;
+        height: 480px;
+    }
+
+    .title h2{
+        font-size: 16px;
+    }
+
+    .text p{
+        font-size: 16px;
+    }
+
+    .cont2 img{
+        height: 450px;
+        width: 550px;
+        margin-right: 10px;
+    }
+    .cont{
+        height: 490px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .contt p{
+        margin-left: 10px;
+    }
+    footer{
+        height: 220px;
+    }
+    .footer{
+        font-size: 16px;
+        padding: 45px 0 45px 0;
+    }
+
+}
+/*netbook cole n7*/
+@media screen and (min-width: 1524px) and (max-width: 1600px){
+    .aside img{
+        width: 343px;
+        height: 343px;
+    }    
+    aside{
+        width: 358px;
+    }
+    
+    .aside3{
+        height: 780px;
+    }
+
+    .aside3 img{
+        width: 343px;
+        height: 343px;
+    }
+    
+    .aside4 img{
+        width: 343px;
+        height: 343px;
+    }
+
+    .aside4{
+        height: 980px;
+    }
+
+    .aside5{
+        height: 1150px;
+    }
+
+    .aside5 img{
+        width: 343px;
+        height: 343px;
+    }
+    
+    .aside6 video{
+        width: 343px;
+        height: 333px;
+    }
+
+    .logo img{
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+    }
+
+    .icon_logo img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .linea1{
+        gap:60px;
+    }
+    #logo-w{
+        margin-right: 0px;
+    }
+    #logo-y{
+        margin-right: 19px;
+    }
+    .conteinerT{
+        width: 400px;
+    }
+    .cont iframe{
+        width: 750px;
+        margin-left: 5px;
+        height: 500px;
+    }
+    main{
+        width: 1126px;
+    }
+    .title h2{
+        font-size: 18px;
+    }
+
+    .text p{
+        font-size: 18px;
+        margin-bottom: -10px;
+    }
+
+    .cont2 img{
+        height: 450px;
+        width: 820px;
+        margin-right: 10px;
+    }
+    .cont{
+        height: 510px;
+    }
+    #dia img{
+        width: 1107px;
+    }
+
+    .galeria img{
+        height: 500px;
+        margin-right: 8px;
+        width: 735px;
+        margin-left: 8px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    .contt p{
+        margin-left: 10px;
+    }
+    footer{
+        height: 220px;
+    }
+    .footer{
+        font-size: 18px;
+        padding: 45px 0 45px 0;
+    }
+}
+
+/*netbook cole n10*/
+@media screen and (min-width: 1268px) and (max-width: 1350px) {
+    .aside img{
+        width: 285px;
+        height: 285px;
+    }    
+    aside{
+        width: 300px;
+    }
+    .logo img{
+        width: 55px;
+        height: 50px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .linea1{
+        gap:60px;
+    }
+    #logo-w{
+        margin-right: 0px;
+    }
+    #logo-y{
+        margin-right: 19px;
+    }
+    .conteinerT{
+        width: 400px;
+    }
+    .cont iframe{
+        width: 550px;
+        margin-left: 5px;
+        height: 500px;
+    }
+    main{
+        width: 930px;
+    }
+    .title h2{
+        font-size: 18px;
+    }
+
+    .text p{
+        font-size: 18px;
+    }
+
+    .cont2 img{
+        height: 450px;
+        width: 520px;
+        margin-right: 10px;
+    }
+    .cont{
+        height: 510px;
+    }
+    #dia img{
+        width: 910px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .contt p{
+        margin-left: 10px;
+    }
+    footer{
+        height: 220px;
+    }
+    .footer{
+        font-size: 18px;
+        padding: 45px 0 45px 0;
+    }
+
+}
+
+/* 1358*/
+
+@media screen and (min-width: 1358px) and (max-width: 1382px){
+    .logo img{
+        height: 60px; 
+        width: 70px; 
+        margin-top: 20px; 
+        margin-left: 2px;
+    }
+    .aside img{
+        width: 315px;
+        height: 315px;
+    }
+    
+    .icon_logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    main{
+        width: 930px;
+    }
+    
+    #dia img{
+        width: 910px;
+    }
+    .conteinerT{
+        width: 400px;
+    }
+
+    .cont iframe{
+        width: 585px;
+        margin-left: 5px;
+        height: 480px;
+    }
+
+    .title h2{
+        font-size: 18px;
+    }
+
+    .text p{
+        font-size: 18px;
+    }
+
+    .cont2 img{
+        height: 550px;
+        width: 635px;
+        margin-right: 10px;
+    }
+    .cont{
+        height: 490px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .contt p{
+        margin-left: 10px;
+    }
+    footer{
+        height: 220px;
+    }
+    .footer{
+        font-size: 18px;
+        padding: 45px 0 45px 0;
+    }
+
+}
