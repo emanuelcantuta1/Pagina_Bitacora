@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje a Córdoba-Foro</title>
+    <link rel="stylesheet" href="estilos/styleforo.css">
+    <link rel="shortcut icon" href="img/logo youtube.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="contheader">
+            <div class="logo">
+                <img src="img/logo.ico" alt="Fátima-Viaje a Córdoba">
+                <h2>Viaje de Estudio</h2> 
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="imaganes.html">imágenes</a></li>
+                    <li><a href="foro.html">Foro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Foro</h1>
+    <main>
+        <div class="formulario">
+            <form method="post" action="formulario.php">
+                Nombre y Apellido <br/>
+                <input type="text" name="name_and_lastname" id="name"> <br/>
+                Correo <br/>
+                <input type="email" name="email" id="email"> <br/>
+                Teléfono de contacto <br/>
+                <input type="tel" name="tel" id="tel"> <br/>
+                ingrese clave de tarjeta
+                <input type="password" name="clave" id=""><br/> <br/> 
+                ¿Qué tan bueno le parecio la página? <br/>
+                <input type="checkbox"  name="nota[]" id="nota" value="Muy Mala"> Muy Mala
+                <input type="checkbox"  name="nota[]" id="nota" value="Mala"> Mala
+                <input type="checkbox"  name="nota[]" id="nota" value="Buena"> Buena 
+                <input type="checkbox"  name="nota[]" id="nota" value="Muy Buena"> Muy Buena 
+                <input type="checkbox"  name="nota[]" id="nota" value="Excelente"> Excelente
+                <br/>  
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea> <br/>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </form>
+        </div> 
+    </main>
+    <br>
+    <footer>
+        <div class="footer">
+            <h4>© 2022 Viaje de estudio-Casa Grande, Córdoba - Emanuel Cantuta, Eduardo Basualdo, Denis Quispe y Jhostin Ucharico</h4>
+            <h4>WebDesign by Small Group Corporation</h4>
+        </div>
+    </footer>
+</body>
+</html>
